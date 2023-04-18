@@ -4,7 +4,7 @@
   "description": "摇号机",
   "main": "index.js",
   "scripts": {
-    "pack": "electron-packager . app --win --out ./myClient --arch=x64 --app-version=1.0.1 --electron-version=2.0.0 --overwrite --ignore=node_modules"
+    "pack": "electron-packager . app --win --out ./myClient --arch=x64 --app-version=1.0.0 --electron-version=2.0.0 --overwrite --ignore=node_modules"
   },
   "author": "yinchieh Chang",
   "license": "ISC"

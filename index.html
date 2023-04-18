@@ -28,10 +28,10 @@
 
         .result span {
             display: inline-block;
-            font-size: 25px;
-            width: 150px;
+            font-size: 200px;
+            width: 300px;
             background: #fff;
-            line-height: 30px;
+            line-height: 200px;
             color: #000;
             margin: 5px;
             border-radius: 10px;
@@ -228,7 +228,8 @@
                 .map(function (m) {
                     choosed[getKey(m)] = 1;
                     list[m.index].style.color = color;
-                    return m.name + '<br/>' + m.phone;
+                    // return m.name + '<br/>' + m.phone;
+                    return m.phone;
                 });
             localStorage.setItem('choosed', JSON.stringify(choosed));
             return ret;
